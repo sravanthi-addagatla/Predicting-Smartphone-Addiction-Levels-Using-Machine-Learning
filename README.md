@@ -179,3 +179,26 @@ smartphone-addiction/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
+
+▶️ How to Run the Project
+1. Clone the repository
+git clone YOUR_GITHUB_REPOSITORY_LINK
+2. Navigate to the project folder
+cd smartphone-addiction
+3. Install the required packages
+pip install -r requirements.txt
+4. Run the Streamlit application
+streamlit run app/app.py
+💡 Key Learning
+
+This project provided hands-on experience with the complete
+Machine Learning lifecycle, including data preprocessing,
+EDA, feature engineering, model development, evaluation,
+hyperparameter tuning, and deployment.
+
+👩‍💻 Author
+Sravanthi Addagatla
+Data Science Learner
+GitHub: https://github.com/sravanthi-addagatla/Predicting-Smartphone-Addiction-Levels-Using-Machine-Learning
+LinkedIn: https://www.linkedin.com/in/sravanthi-addagatla-462597423/
