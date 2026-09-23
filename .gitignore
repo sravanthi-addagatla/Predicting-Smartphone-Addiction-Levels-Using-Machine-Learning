@@ -14,3 +14,7 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Machine Learning model files
+*.pkl
+*.joblib
