@@ -2,26 +2,24 @@
 
 ## 📌 Project Overview
 
-This project uses Machine Learning to predict smartphone
-addiction levels based on smartphone usage, lifestyle,
-behavioral, and social factors.
+This project uses Machine Learning to predict smartphone addiction
+levels based on smartphone usage, lifestyle, behavioral, and
+social factors.
 
-The project follows an end-to-end Machine Learning workflow,
-from data preprocessing and exploratory data analysis to
-model training, evaluation, hyperparameter tuning, and
-deployment using Streamlit.
+The project follows an end-to-end Machine Learning workflow, from
+data preprocessing and exploratory data analysis to model training,
+evaluation, hyperparameter tuning, and deployment using Streamlit.
 
 ---
 
 ## 🎯 Business Problem
 
-Excessive smartphone usage can be associated with changes
-in sleep, exercise, social interaction, and other lifestyle
-patterns.
+Excessive smartphone usage can be associated with changes in
+sleep, exercise, social interaction, and other lifestyle patterns.
 
-The objective of this project is to build a Machine Learning
-model that predicts smartphone addiction levels using
-relevant user-related features.
+The objective of this project is to build a Machine Learning model
+that predicts smartphone addiction levels using relevant
+user-related features.
 
 ---
 
@@ -46,8 +44,8 @@ The dataset contains:
 - 6000 rows
 - 22 columns
 
-The features include smartphone usage, lifestyle,
-behavioral, social, and other user-related attributes.
+The features include smartphone usage, lifestyle, behavioral,
+social, and other user-related attributes.
 
 ### Target Variable
 
@@ -92,16 +90,15 @@ Final Model
       ↓
 Streamlit Deployment
 
-
 🔍 Exploratory Data Analysis
 
 EDA was performed to understand:
-
 Data distributions
 Relationships between variables
 Correlations
 Outliers
 Smartphone usage patterns
+
 Lifestyle-related patterns
 
 Visualizations were created using Matplotlib and Seaborn.
@@ -112,7 +109,6 @@ New features were created using domain knowledge and
 relationships between existing variables.
 
 Examples include:
-
 Social media usage ratios
 Gaming usage ratios
 Education usage ratios
@@ -120,39 +116,48 @@ Weekend usage ratios
 Total entertainment hours
 Emotional-related scores
 Phone usage indicators
+
 🤖 Machine Learning
 
 Multiple Machine Learning models were trained and evaluated
 to identify a suitable model for predicting addiction level.
 
-The models were evaluated using appropriate regression
-metrics such as:
+The models were evaluated using regression metrics such as:
 
 MAE
 MSE
 RMSE
 R² Score
+
+## 📈 Model Performance
+
+| Model | MAE ↓ | RMSE ↓ | R² ↑ |
+|---|---:|---:|---:|
+| Linear Regression | 0.6333 | 0.8081 | 0.7349 |
+| Decision Tree | 0.3271 | 0.4124 | 0.9309 |
+| Random Forest | 0.1951 | 0.3216 | 0.9612 |
+| Gradient Boosting | 0.3194 | 0.4027 | 0.9342 |
+
+### Final Model
+Based on the evaluation results, Random Forest achieved the
+lowest MAE and RMSE and the highest R² score among the tested
+models.
+
 🎛️ Hyperparameter Tuning
 
-Hyperparameter tuning was performed to improve model
-performance and identify suitable model parameters.
+Hyperparameter tuning was performed to improve model performance
+and identify suitable model parameters.
 
 Techniques used:
-
 GridSearchCV
 RandomizedSearchCV
+
 🌐 Deployment
 
-The final Machine Learning model was deployed using
-Streamlit.
-
+The final Machine Learning model was deployed using Streamlit.
 Users can enter relevant smartphone usage and lifestyle
-information through the web interface and receive a
-predicted smartphone addiction level.
-
-🚀 Live Application
-
-Add your Streamlit link here:
+information through the web interface and receive a predicted
+smartphone addiction level.
 
 STREAMLIT_LINK : https://predicting-smartphone-addiction-levels-using-machine-learning.streamlit.app/
 
@@ -190,15 +195,23 @@ cd smartphone-addiction
 pip install -r requirements.txt
 4. Run the Streamlit application
 streamlit run app/app.py
+
 💡 Key Learning
 
 This project provided hands-on experience with the complete
-Machine Learning lifecycle, including data preprocessing,
-EDA, feature engineering, model development, evaluation,
-hyperparameter tuning, and deployment.
+Machine Learning lifecycle, including:
+
+Data preprocessing
+Exploratory Data Analysis
+Feature engineering
+Feature selection
+Model development
+Model evaluation
+Hyperparameter tuning
+Model deployment
 
 👩‍💻 Author
 Sravanthi Addagatla
 Data Science Learner
-GitHub: https://github.com/sravanthi-addagatla/Predicting-Smartphone-Addiction-Levels-Using-Machine-Learning
+GitHub: https://github.com/sravanthi-addagatla
 LinkedIn: https://www.linkedin.com/in/sravanthi-addagatla-462597423/
