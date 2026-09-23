@@ -16,5 +16,4 @@ env/
 Thumbs.db
 
 # Machine Learning model files
-*.pkl
 *.joblib
